@@ -33,6 +33,9 @@ else if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn']==true){
       your posts.</p>
 
 
+    <img src="images/lineGraph.png" alt="Line Graph Example">
+
+
   </div>
 
 
