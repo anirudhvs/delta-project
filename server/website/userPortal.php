@@ -96,9 +96,17 @@ $userId=$_SESSION['userId'];
 
     <?php endif; ?>
   </div>
+  
+  <div class="container">
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-secondary" id="clipboard">Copy your link</button>
+        </div>
+  </div>
 
   <?php require("bootstrapRequirement.php"); ?>
-
+  
+  <script type="text/javascript" > let text= '<?php echo "localhost:8000/?u=".$_SESSION['username']; ?>'; </script>
+   <script src="copyClipboard.js"></script>
 </body>
 
 </html>
