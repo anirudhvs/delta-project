@@ -61,7 +61,7 @@
         <div class="form-group my-2">
           <label for="linkURL">URL or Link to Post</label>
           <input type="text" class="form-control" name="linkURL" id="linkURL" placeholder="www.example.com/yourpost"
-            required>
+          data-toggle="tooltip" title="Please enter the full URL" required>
         </div>
         <!-- Check Show or Hide -->
         <div class="form-check form-check-inline my-2">
@@ -83,9 +83,6 @@
 
 
   </div>
-
-
-
 
   <?php require("bootstrapRequirement.php"); ?>
 
